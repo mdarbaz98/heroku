@@ -1,4 +1,4 @@
-require("./db/connection");
+// require("./db/connection");
 require("dotenv").config();
 const express = require("express");
 const app = express();
