@@ -8,8 +8,8 @@ const mongoose = require("mongoose");
 //     console.log(error);
 // })
 
-const connectDB = (connectionString) => {
-    mongoose.connect(connectionString)
+const connectDB = async (connectionString) => {
+    await mongoose.connect(connectionString)
 }
 
 module.exports = connectDB;
